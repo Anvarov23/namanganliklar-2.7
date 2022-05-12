@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+        url('../fonts/rubik-v19-latin-regular.woff2') format('woff2'),
+        url('../fonts/rubik-v19-latin-regular.woff') format('woff'); 
+    }
+    @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src:
+        url('../fonts/rubik-v19-latin-500.woff2') format('woff2'),
+        url('../fonts/rubik-v19-latin-500.woff') format('woff');
+    }
+    @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:
+        url('../fonts/rubik-v19-latin-700.woff2') format('woff2'), 
+        url('../fonts/rubik-v19-latin-700.woff') format('woff'); 
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik' 'Arial' sans-serif;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container{
+    width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.header-top {
+    background: #F6F6F6;
+    padding: 30px;
+}
+
+.header-top-inner {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo{
+    margin-right: 41px;
+}
+
+.site-logo-img{
+    width: 267px;
+    height: 28px;
+}
+
+.currency-list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.currency-item{
+    color: #555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 25px;
+}
+
+.currency-span{
+    color: #2959CE;
+    font-weight: 700;
+}
+
+.currency-right{
+    margin-right: 0;
+}
+
+.languages{
+    width: 70px;
+    height: 36px;
+    background: #DCE6FF;
+    border-radius: 39px;
+    padding: 3px;
+    margin-right: 25px;
+    margin-left: auto;
+}
+
+.languages-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #A6A6A6;
+    text-decoration: none;
+}
+
+.active-languages{
+    width: 30px;
+    height: 30px;  
+    padding: 8px 7px 7px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #000;
+}
+
+.login{
+    background: #7296EC;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 13px 20px;
+    text-decoration: none;
+}
